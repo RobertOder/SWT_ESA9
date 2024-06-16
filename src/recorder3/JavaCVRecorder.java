@@ -20,6 +20,11 @@ import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.nio.ShortBuffer;
 
+/**
+ * Ein Klassenkommentar
+ * @author Robert Oder
+ * @version 0.1
+ */
 public class JavaCVRecorder {
 	
 	// Initialisierung der threaduebergreifende Variablen
@@ -27,6 +32,10 @@ public class JavaCVRecorder {
 	private static long startTime = 0;
     private static long videoTime = 0;
 	
+    /**
+     * Da nicht viele Funktionen benoetigt werden, wurde alles in die main Methode geschrieben
+     * @param args
+     */
     public static void main(String[] args) {
     	// Log-Ausgabe fuer den Codec aktivieren
         FFmpegLogCallback.set();
